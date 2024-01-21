@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import csv
 
 header = []
-fileName1 = "Esda1_maling_3.csv"
-fileName2 = "Esda1_maling_2.csv"
+fileName1 = "Esda1_maling_2.csv"
+fileName2 = "Esda1_maling_3.csv"
 
 #finner den største og den femtiende største verdien:
 def femti_største(csv_fil):
@@ -51,5 +51,5 @@ plt.savefig('AmaxRes.png', dpi=500)
 plt.show()
 
 
-print(f'A1: \nstørste: {femti_største("Esda1_maling_3.csv")[1]}\nminste:  {femti_største("Esda1_maling_3.csv")[0]}')
-print(f'\nA2: \nstørste: {femti_største("Esda1_maling_2.csv")[1]}\nminste:  {femti_største("Esda1_maling_2.csv")[0]}')
+print(f'A1: \nstørste: {femti_største("Esda1_maling_2.csv")[1]}\nminste:  {femti_største("Esda1_maling_2.csv")[0]}')
+print(f'\nA2: \nstørste: {femti_største("Esda1_maling_3.csv")[1]}\nminste:  {femti_største("Esda1_maling_3.csv")[0]}')
